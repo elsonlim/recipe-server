@@ -1,0 +1,31 @@
+{
+  "name": "recipe-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "prod": "pm2 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsonlim/recipe-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsonlim/recipe-server/issues"
+  },
+  "homepage": "https://github.com/elsonlim/recipe-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pm2": "^3.5.1",
+    "recipe-scraper": "^1.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
